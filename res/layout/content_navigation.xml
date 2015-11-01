@@ -41,6 +41,6 @@
             android:id="@+id/imageButton"
             android:layout_row="6"
             android:layout_column="10"
-            android:background="@drawable/Genge3" />
+            android:background="@drawable/genge3" />
     </GridLayout>
 </RelativeLayout>
