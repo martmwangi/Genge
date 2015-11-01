@@ -28,8 +28,13 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".Artists"
+            android:name=".Artist"
             android:label="@string/title_activity_artists"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Music"
+            android:label="@string/title_activity_music"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
@@ -42,11 +47,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Artist"
-            android:label="@string/title_activity_artist"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+
     </application>
 
 </manifest>
